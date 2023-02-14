@@ -18,7 +18,7 @@ vtf() {
 	fi
 }
 
-toml_prep "$(cat 2>/dev/null "${1:-config.toml}")" || abort "could not find config file '${1}'"
+toml_prep "$(cat 2>/dev/null "${1:-config-rv-ex.toml}")" || abort "could not find config file '${1}'"
 
 # -- Main config --
 main_config_t=$(toml_get_table "")
