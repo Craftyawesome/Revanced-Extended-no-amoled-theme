@@ -1,17 +1,33 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: revanced-integrations-0.99.11.apk  
-Patches: revanced-patches-2.164.11.jar  
+Integrations: revanced-integrations-0.99.15.apk  
+Patches: revanced-patches-2.164.15.jar  
 
 YouTube
 ==
-- fix: YouTube crashes when entering revanced extended settings https://github.com/inotia00/ReVanced_Extended/issues/364
-- rollback: logging improvements
+- add `custom-branding-icon-mmt` patch https://github.com/inotia00/revanced-patches/pull/8
+- add `switch-create-notification` patch
+- refactor(enable-auto-repeat): improve the patch method
+- refactor(enable-old-quality-layout): improve the patch method
+- refactor(sponsorblock): change icon resource (shield button)
+- refactor(sponsorblock): sponsorblock button no longer overlaps after video ends
+- refactor(video-id-hook): match with the official ReVanced's source code
+- refacrot: improved toast message
 - crowdin translation update
-`Belarusian`, `Japanese`
+`Arabic`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Japanese`, `Korean`, `Polish`, `Portuguese (Brazilian)`, `Spanish`, `Turkish`, `Vietnamese`
+
+
+YouTube Music
+==
+- fix: `hide-get-premium` patch fails when not including other patches https://github.com/inotia00/ReVanced_Extended/issues/386
+- crowdin translation update
+`Korean`
+
 
 ETC
 ==
-- add suport YouTube v18.08.36
+- add support YouTube v18.08.38
+- drop support YouTube v18.08.37
+
 
 ※ Compatible ReVanced Manager: v0.0.56
 ※ If you want to contribute to the translation, refer below
@@ -21,7 +37,7 @@ ETC
 - [Other Countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.08.37  
+YouTube: 18.08.38  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
