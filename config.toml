@@ -9,7 +9,7 @@ build-mindetach-module = false
 
 patches-source = "YT-Advanced/ReX-patches" #needed for CI to check this version
 integrations-source = "YT-Advanced/ReX-integrations"
-cli-source = "inotia00/revanced-cli"
+cli-source = "YT-Advanced/revanced-cli"
 
 [YouTube-REX]
 enabled = true
