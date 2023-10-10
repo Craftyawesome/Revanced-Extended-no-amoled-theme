@@ -1,11 +1,8 @@
 name: CI
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows:
-        - "sync"
-    types:
-        - completed
+  schedule:
+    - cron: "0 16 * * *"
 
 jobs:
   check:
